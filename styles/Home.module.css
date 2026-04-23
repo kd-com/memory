@@ -38,12 +38,6 @@
   min-width: 800px;
   position: relative;
 }
-@media (max-width:500px) {
-  .grid {
-    grid-template-columns: repeat(2, auto);
-    min-width:380px;
-  }
-}
 @media (max-width:768px) {
   .grid {
     grid-template-columns: repeat(4, auto);
@@ -52,3 +46,10 @@
   }
   
 }
+@media (max-width:500px) {
+  .grid {
+    grid-template-columns: repeat(2, auto);
+    min-width:380px;
+  }
+}
+
