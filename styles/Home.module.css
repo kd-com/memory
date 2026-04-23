@@ -1,9 +1,10 @@
 .home {
-  height: 100vh;
+  height: 100%;
   width: 100vw;
   background-color: #151a1e;
   display: grid;
   grid-template-rows: 50px 1fr;
+  padding:1em;
 }
 
 .header {
