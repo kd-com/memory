@@ -6,6 +6,12 @@
   cursor: pointer;
   perspective: 1000px;
 }
+@media (max-width:768px) {
+  .card {
+    width:100px;
+    
+  }
+} 
 
 .card.active {
   transform: scale(1.05);
